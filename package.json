@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+   "start": "json-server --host 0.0.0.0 --port $PORT db.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/grsd-95/JSON-Server1#readme",
   "dependencies": {
-    "cors": "^2.8.5",
-    "json-server": "^1.0.0-beta.3"
+    "json-server": "^0.17.4",
+    "cors": "^2.8.5"
   }
 }
