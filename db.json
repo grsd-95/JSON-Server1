@@ -437,6 +437,14 @@
       "type": "menu",
       "component": "Todos"
     },
+     {
+      "id": "todo",
+      "title": "Todos",
+      "icon": "CheckSquare",
+      "path": "/todos2",
+      "type": "menu",
+      "component": "Todos"
+    },
     {
       "id": "ReactGrid",
       "title": "React Grid",
