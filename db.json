@@ -438,12 +438,20 @@
       "component": "Todos"
     },
      {
-      "id": "todo",
+      "id": "todos2",
       "title": "Todos",
       "icon": "CheckSquare",
       "path": "/todos2",
       "type": "menu",
       "component": "Todos"
+    },
+     {
+      "id": "TestMenuTodos",
+      "title": "Test Menu Todos",
+      "icon": "CheckSquare",
+      "path": "/testmenutodos",
+      "type": "menu",
+      "component": "TestMenuTodos"
     },
     {
       "id": "ReactGrid",
