@@ -284,182 +284,182 @@
       "render": "(value) => (<span className={`status-badge ${value?.toLowerCase()}`}>{value}</span>)"
     }
   ],
-  "mainMenu": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "icon": "LayoutDashboard",
-      "path": "/",
-      "type": "menu",
-      "component": "Dashboard"
-    },
-    {
-      "id": "analytics",
-      "title": "Analytics",
-      "icon": "BarChart3",
-      "type": "collapse",
-      "path": "/analytics",
-      "component": "Analytics",
-      "children": [
-        {
-          "id": "revenue",
-          "title": "Revenue",
-          "path": "/analytics/revenue",
-          "icon": "PieChart",
-          "type": "menu",
-          "component": "Revenue"
-        },
-        {
-          "id": "users",
-          "title": "User Analytics",
-          "path": "/analytics/users",
-          "icon": "Users",
-          "type": "menu",
-          "component": "UserAnalytics"
-        },
-        {
-          "id": "performance",
-          "title": "Performance",
-          "path": "/analytics/performance",
-          "icon": "Activity",
-          "type": "menu",
-          "component": "Performance"
-        }
-      ]
-    },
-    {
-      "id": "users",
-      "title": "User Management",
-      "icon": "Users",
-      "type": "collapse",
-      "path": "/users",
-      "component": "UserManagement",
-      "children": [
-        {
-          "id": "user-list",
-          "title": "User List",
-          "path": "/users/list",
-          "icon": "User",
-          "type": "menu",
-          "component": "UserList"
-        },
-        {
-          "id": "user-roles",
-          "title": "Roles & Permissions",
-          "path": "/users/roles",
-          "icon": "Shield",
-          "type": "menu",
-          "component": "RolesPermissions"
-        },
-        {
-          "id": "user-activity",
-          "title": "User Activity",
-          "path": "/users/activity",
-          "icon": "Activity",
-          "type": "menu",
-          "component": "UserActivity"
-        }
-      ]
-    },
-    {
-      "id": "products",
-      "title": "Products",
-      "icon": "ShoppingCart",
-      "type": "collapse",
-      "path": "/products",
-      "component": "Products",
-      "children": [
-        {
-          "id": "product-list",
-          "title": "Product List",
-          "path": "/products/list",
-          "icon": "FolderKanban",
-          "type": "menu",
-          "component": "ProductList"
-        },
-        {
-          "id": "product-categories",
-          "title": "Categories",
-          "path": "/products/categories",
-          "icon": "Sliders",
-          "type": "menu",
-          "component": "Categories"
-        },
-        {
-          "id": "product-inventory",
-          "title": "Inventory",
-          "path": "/products/inventory",
-          "icon": "TrendingUp",
-          "type": "menu",
-          "component": "Inventory"
-        }
-      ]
-    },
-    {
-      "id": "settings",
-      "title": "Settings",
-      "icon": "Settings",
-      "type": "collapse",
-      "path": "/settings",
-      "component": "Settings",
-      "children": [
-        {
-          "id": "profile",
-          "title": "Profile Settings",
-          "path": "/settings/profile",
-          "icon": "User",
-          "type": "menu",
-          "component": "ProfileSettings"
-        },
-        {
-          "id": "security",
-          "title": "Security",
-          "path": "/settings/security",
-          "icon": "Lock",
-          "type": "menu",
-          "component": "Security"
-        },
-        {
-          "id": "preferences",
-          "title": "Preferences",
-          "path": "/settings/preferences",
-          "icon": "SlidersHorizontal",
-          "type": "menu",
-          "component": "Preferences"
-        }
-      ]
-    },
-    {
-      "id": "todo",
-      "title": "Todos",
-      "icon": "CheckSquare",
-      "path": "/todos",
-      "type": "menu",
-      "component": "Todos"
-    },
-     {
-      "id": "TestMenuTodos",
-      "title": "Test Menu Todos",
-      "icon": "CheckSquare",
-      "path": "/testmenutodos",
-      "type": "menu",
-      "component": "TestMenuTodos"
-    },
-    {
-      "id": "ReactGrid",
-      "title": "React Grid",
-      "icon": "CheckSquare",
-      "path": "/reactgrid",
-      "type": "menu",
-      "component": "ReactGrid"
-    },
-    {
-      "id": "TestPage",
-      "title": "Test Page",
-      "icon": "CheckSquare",
-      "path": "/testPage",
-      "type": "menu",
-      "component": "TestPage"
-    }
-  ]
+ "mainMenu": [
+  {
+    "id": "dashboard",
+    "title": "Dashboard",
+    "icon": "LayoutDashboard",
+    "path": "/",
+    "type": "menu",
+    "component": "Dashboard"
+  },
+  {
+    "id": "analytics",
+    "title": "Analytics",
+    "icon": "BarChart4",
+    "type": "collapse",
+    "path": "/analytics",
+    "component": "Analytics",
+    "children": [
+      {
+        "id": "revenue",
+        "title": "Revenue",
+        "path": "/analytics/revenue",
+        "icon": "DollarSign",
+        "type": "menu",
+        "component": "Revenue"
+      },
+      {
+        "id": "users",
+        "title": "User Analytics",
+        "path": "/analytics/users",
+        "icon": "UserCheck",
+        "type": "menu",
+        "component": "UserAnalytics"
+      },
+      {
+        "id": "performance",
+        "title": "Performance",
+        "path": "/analytics/performance",
+        "icon": "Gauge",
+        "type": "menu",
+        "component": "Performance"
+      }
+    ]
+  },
+  {
+    "id": "users",
+    "title": "User Management",
+    "icon": "UsersRound",
+    "type": "collapse",
+    "path": "/users",
+    "component": "UserManagement",
+    "children": [
+      {
+        "id": "user-list",
+        "title": "User List",
+        "path": "/users/list",
+        "icon": "List",
+        "type": "menu",
+        "component": "UserList"
+      },
+      {
+        "id": "user-roles",
+        "title": "Roles & Permissions",
+        "path": "/users/roles",
+        "icon": "ShieldCheck",
+        "type": "menu",
+        "component": "RolesPermissions"
+      },
+      {
+        "id": "user-activity",
+        "title": "User Activity",
+        "path": "/users/activity",
+        "icon": "ActivitySquare",
+        "type": "menu",
+        "component": "UserActivity"
+      }
+    ]
+  },
+  {
+    "id": "products",
+    "title": "Products",
+    "icon": "Package",
+    "type": "collapse",
+    "path": "/products",
+    "component": "Products",
+    "children": [
+      {
+        "id": "product-list",
+        "title": "Product List",
+        "path": "/products/list",
+        "icon": "Boxes",
+        "type": "menu",
+        "component": "ProductList"
+      },
+      {
+        "id": "product-categories",
+        "title": "Categories",
+        "path": "/products/categories",
+        "icon": "Layers",
+        "type": "menu",
+        "component": "Categories"
+      },
+      {
+        "id": "product-inventory",
+        "title": "Inventory",
+        "path": "/products/inventory",
+        "icon": "Warehouse",
+        "type": "menu",
+        "component": "Inventory"
+      }
+    ]
+  },
+  {
+    "id": "settings",
+    "title": "Settings",
+    "icon": "Settings2",
+    "type": "collapse",
+    "path": "/settings",
+    "component": "Settings",
+    "children": [
+      {
+        "id": "profile",
+        "title": "Profile Settings",
+        "path": "/settings/profile",
+        "icon": "UserCog",
+        "type": "menu",
+        "component": "ProfileSettings"
+      },
+      {
+        "id": "security",
+        "title": "Security",
+        "path": "/settings/security",
+        "icon": "LockKeyhole",
+        "type": "menu",
+        "component": "Security"
+      },
+      {
+        "id": "preferences",
+        "title": "Preferences",
+        "path": "/settings/preferences",
+        "icon": "Sliders",
+        "type": "menu",
+        "component": "Preferences"
+      }
+    ]
+  },
+  {
+    "id": "todo",
+    "title": "Todos",
+    "icon": "CheckSquare",
+    "path": "/todos",
+    "type": "menu",
+    "component": "Todos"
+  },
+  {
+    "id": "TestMenuTodos",
+    "title": "Test Menu Todos",
+    "icon": "ClipboardList",
+    "path": "/testmenutodos",
+    "type": "menu",
+    "component": "TestMenuTodos"
+  },
+  {
+    "id": "ReactGrid",
+    "title": "React Grid",
+    "icon": "Grid3X3",
+    "path": "/reactgrid",
+    "type": "menu",
+    "component": "ReactGrid"
+  },
+  {
+    "id": "TestPage",
+    "title": "Test Page",
+    "icon": "FlaskConical",
+    "path": "/testPage",
+    "type": "menu",
+    "component": "TestPage"
+  }
+]
 }
