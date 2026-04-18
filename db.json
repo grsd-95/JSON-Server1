@@ -460,6 +460,14 @@
     "path": "/testPage",
     "type": "menu",
     "component": "TestPage"
+  },
+  {
+    "id": "TestPage2",
+    "title": "Test Page2",
+    "icon": "FlaskConical",
+    "path": "/testPage2",
+    "type": "menu",
+    "component": "TestPage2"
   }
 ]
 }
